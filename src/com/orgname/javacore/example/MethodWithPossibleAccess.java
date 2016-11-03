@@ -9,22 +9,21 @@ import com.orgname.javacore.oops.Employee;
 public class MethodWithPossibleAccess {
 	
 	private String name;
-	private double interestRate;
-	private long duration;
-	private double amount;
+	private double salary;
+	private long id;
 	
 	//Method which wont return anything
-	public void init(String name, Long empId, double amount)
+	public void init(String name, double salary, long id)
 	{
-		this.amount = amount;
-		this.duration = duration;
-		this.interestRate = interestRate;
+		this.name = name;
+		this.salary = salary;
+		this.id = id;
 	}
 	
 	//Method which returns double value
-	public double getLoanAmount(){
+	public double getSalary(){
 		//Businell logic
-		return (amount * interestRate)/duration;
+		return salary;
 	}
 	
 	//method which return an Employee object which in user defined object
@@ -44,8 +43,8 @@ public class MethodWithPossibleAccess {
 	}
 	
 	//Method which is synchronized
-	public synchronized double getsynchronisedLoanAmount(){
-		return (amount * interestRate)/duration;
+	public synchronized double getSynchronisedSalary(){
+		return salary;
 	}
 	
 	//A method which is protected
