@@ -5,7 +5,7 @@ package com.orgname.javacore.example;
  * 
  */
 public class TestClass {
-	
+
 	public static void main(String[] arg) {
 		// FinalClassExample classExample = new FinalClassExample();
 		// VariableWithAccessExample accessExample = new

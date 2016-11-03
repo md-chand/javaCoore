@@ -1,5 +1,7 @@
 package com.orgname.javacore.example;
 
+import com.orgname.javacore.oops.Employee;
+
 /**
  * @author MyPC
  *
@@ -19,7 +21,13 @@ public class MethodWithAccess {
 	}
 	
 	public double getLoanAmount(){
+		//Businell logic
 		return (amount * interestRate)/duration;
+	}
+	
+	public Employee getEmployee(int empId) {
+		//Businell logic to get employee having empId
+		return new Employee();
 	}
 	
 	public final void finalMethodExample() {
@@ -28,6 +36,5 @@ public class MethodWithAccess {
 	
 	public synchronized double getsynchronisedLoanAmount(){
 		return (amount * interestRate)/duration;
-	}
-	
+	}	
 }

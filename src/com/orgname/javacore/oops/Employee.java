@@ -1,50 +1,42 @@
 package com.orgname.javacore.oops;
 
+import com.orgname.javacore.example.LiteralsExample;
+
 /**
  * @author MyPC
  *
  */
-public class Employee {
+public class Employee extends LiteralsExample{
 	
+	//Variables
 	private String empName;
 	private Long empId;
 	private String adress;
-	/**
-	 * @return the empName
-	 */
+	
+	//Below are Methods of this classes
+	
 	public String getEmpName() {
-		return empName;
+		return empName;		
 	}
-	/**
-	 * @param empName the empName to set
-	 */
+
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
-	/**
-	 * @return the empId
-	 */
+
 	public Long getEmpId() {
 	    getEmpId();
 		return empId;
 	}
-	/**
-	 * @param empId the empId to set
-	 */
+
 	public void setEmpId(Long empId) {
 		this.empId = empId;
 	}
-	/**
-	 * @return the adress
-	 */
+
 	public String getAdress() {
 		return adress;
 	}
-	/**
-	 * @param adress the adress to set
-	 */
+
 	public void setAdress(String adress) {
 		this.adress = adress;
-	}
-	
+	}	
 }
