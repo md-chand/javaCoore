@@ -18,7 +18,7 @@ public final class FinalClassExample {
 		this.empId = empId;
 	}
 	
-	public String getName() {
+	public final String getName() {
 		return name;
 	}
 	
