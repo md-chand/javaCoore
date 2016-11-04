@@ -3,6 +3,7 @@ package com.orgname.javacore.example;
 /**
  * @author MyPC
  *
+ *
  */
 public final class FinalClassExample {
 	
